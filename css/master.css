@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: LightGray;
+    padding-top: 1cm;
+    padding-bottom: 0.2cm;
+    padding-left: 9cm;
+    padding-right: 9cm;
+    border-bottom: 2px;
+    border-color: black;
+}
+
+.name {
+    text-align: left;
+    font-family: Brush Script MT;
+    font-size: 300%;
+}
+
+.navbuttons {
+    text-align: right;
+    font-size: 125%;
+}
+
+.text {
+    padding-top: 0.2cm;
+    padding-bottom: 0.25cm;
+    padding-left: 9cm;
+    padding-right: 9cm;
+}
