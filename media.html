@@ -1,33 +1,96 @@
-<!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
+
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/master.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
 
-    <title>Media</title>
+  <title>Research</title>
+  <link rel="icon" href="images/icon.png" type="image/x-icon">
 </head>
 <body>
 
-    <!-- nav bar required on all pages-->
-    <div class="navbar">
-        <nav>
-        <a class="name"> Christian Koertje </a>
-            <div class="navbuttons">
-                <a href="index.html"> Research </a> /
-                <a href="media.html"> Media </a> /
-                <a href="cv/cv.pdf"> CV </a>
+
+<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+				  <li><a href="index.html">Research</a></li>
+				  <li><a href="media.html">Media</a></li>
+				  <li><a href="cv/cv-ckoertje.pdf">CV</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+
+  <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Contact Info on the Sidebar -->
+            <div class="col-md-4">
+                <div style="font-family: 'brush script mt'; font-size: 56px;">
+                    <b>Christian Koertje</b>
+                </div>
+
+                <p><img src="images/me.png" alt="A picture of me!" width="250"></p>
+
+                <p>
+                    <a href="mailto:ckoertj1@binghamton.edu"><img src="images/email.png" alt="Email" width="25px"></a>
+                    <!-- <a href="#"><img src="images/google.png" alt="Google Scholar" width="25px"></a> -->
+                    <a href="https://github.com/ckoertje"><img src="images/github.png" alt="Github" width="25px"></a>
+                    <a href="https://twitter.com/handkoertjef"><img src="images/twitter.png" alt="Twitter" width="25px"></a>
+                    <a href="https://www.linkedin.com/in/christian-koertje-00b94114b?original_referer=https%3A%2F%2Fwww.google.com%2F"><img src="images/linkedin.png" alt="LinkedIn" width="25px"></a>
+                    <br>
+                <p>
+                    Masters Student <br>
+                    Department of Systems Science and Industrial Engineering <br>
+                    Binghamton University, SUNY <br>
+                    Engineering Building <br>
+                    Vestal, NY 13850 <br>
+                </p>
             </div>
-        </nav>
-    </div>
 
-    <div class="text">
-        <h3> About me </h3>
-        <p>
-            laskfja;sldjkfa;sdkfa
-        </p>
+            <!-- Entries Column -->
+            <div class="col-md-8" style="height: 100vh;">
+                
+                <div style="margin-top:3%; text-align:justify;">
+                    <h3>NERCCS 2022</h3>
+					<p>
+                        <a href="presentations/talk-NERCCS2022.pdf"> <img src="images/talk-NERCCS2022.png" alt="NERCCS2022 slides"> </a>
+                    </p>
+                    <hr>
 
+                </div>
+            </div>
+
+        </div>
     </div>
+    <!-- /.container -->
+
+    <!-- Other people may like it too! -->
+    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a>
 
 </body>
+
 </html>
